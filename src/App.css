@@ -1,38 +1,23 @@
-.App {
-  text-align: center;
+/* Styles for the scrollbar */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5); /* Color of the thumb (change the alpha value for transparency) */
+  border-radius: 6px; /* Rounded corners of the thumb */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+::-webkit-scrollbar-track {
+  background-color: black; /* Color of the track */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Hover effect on the scrollbar thumb */
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(84, 84, 84, 0.7); /* Color on hover (change the alpha value for transparency) */
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* Hover effect on the scrollbar track */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+/* You can also add other styles or adjust the values as needed */
